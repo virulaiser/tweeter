@@ -1,0 +1,125 @@
+/* Colocar aquí CSS "propio". */
+:root {
+  --color-main: #1d9bf0;
+  --color-secondary: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  
+}
+
+.mainContainer {
+  height: 85vh;
+}
+
+.welcomeContainer {
+  background-color: var(--color-main);
+  color: var(--color-secondary);
+}
+
+.textForm {
+  font-size: 12px;
+}
+
+.btnSign {
+  color: var(--color-main);
+}
+
+#sidebarContainerTop {
+  position: fixed;
+  top: 2%;
+  left: 7%;
+  flex-direction: column;
+  display: flex;
+}
+
+#sidebarContainerBottom {
+  position: fixed;
+  bottom: 2%;
+  left: 7%;
+  flex-direction: column;
+  display: flex;
+}
+
+#columnsSticky {
+  position: sticky;
+  top: 0px;
+}
+
+.uploadFile {
+  display: inline-block;
+  background-color: #e9ecef;
+  cursor: pointer;
+}
+
+.greetingColumn {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.hideSidebar {
+  display: none;
+}
+
+.btnLightBlue {
+  color: var(--color-secondary);
+  border: none;
+  background-color: var(--color-main);
+}
+
+#btnDelete {
+  color: #dc3545;
+  border: none;
+  background-color: var(--color-secondary);
+}
+
+#btnDeleteInverted {
+  color: var(--color-secondary);
+  border: none;
+  background-color: #dc3545;
+}
+
+#btnLikes {
+  color: #f91894;
+  border: none;
+  background-color: var(--color-secondary);
+}
+
+#tweetAvatar {
+  width: 50px;
+}
+
+#backgroundTrends {
+  background-color: #f7f9f9;
+}
+
+.hideSidebarButton {
+  display: none;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 577px) {
+  .greetingColumn {
+    display: block;
+  }
+
+  .hideSidebar {
+    display: block;
+  }
+
+  #hideSidebarIcon {
+    display: none;
+  }
+
+  .hideSidebarButton {
+    display: block;
+  }
+}
