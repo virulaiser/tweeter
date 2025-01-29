@@ -1,0 +1,3 @@
+APP_PORT=8000
+DB_DATABASE="mongodb+srv://jsiutto:1234@cluster0.uspcw.mongodb.net/db"
+JWT_SECRET=PasswordSecreta 
